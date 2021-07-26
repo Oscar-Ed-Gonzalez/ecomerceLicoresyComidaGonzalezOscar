@@ -1,0 +1,5 @@
+- todos los componentes se deben llamar en Mayusculas(por compilacion), todos son funciones y todos los componentes tienen un retorno 
+en react se usa <App> JSX es un formato que se inventa react    
+
+Las variables simepre se exportan 
+
