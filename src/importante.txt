@@ -3,3 +3,4 @@ en react se usa <App> JSX es un formato que se inventa react
 
 Las variables simepre se exportan 
 
+Las props de react siempre van de padre a hijo 
