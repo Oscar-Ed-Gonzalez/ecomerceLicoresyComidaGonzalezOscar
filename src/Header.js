@@ -7,7 +7,7 @@ const Header = ({nombre, edad}) =>{
         <header>
             {/*Desde aqui hay que salir de JSX*/}
             <h1>E-COMMERCE de {nombre}</h1>
-            <nav>
+            <nav id="menu">
                 <a href="#"> Iniciar Sesión</a>
                 <a href="#"> Mis pedidos </a>
                 <CartWidget />

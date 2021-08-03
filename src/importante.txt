@@ -4,3 +4,25 @@ en react se usa <App> JSX es un formato que se inventa react
 Las variables simepre se exportan 
 
 Las props de react siempre van de padre a hijo 
+
+usando create react app solo se puede usar estilos propios usando creat react app
+
+state:
+valores locales dentro de un componente que podemos controlar atravez de renders
+
+ciclo de vida: 
+el componente nace porque esta en pantalla, no se actualiza, tampco se muere en app, solo le pasa la primera modals
+
+Mount 
+
+Update 
+
+Unmount
+
+Para lograr esto en un componente de funcion usando un HOOKs
+
+HOOK: cosas que ya vienen instaladas en react empieza por use, todos los hooks son funciones y siempre se ejecutan, no se pasan como parametros...
+no se generaliza el funcionamiento porque cada uno es distinto useEffect useState useContext useCallback
+lso hooks siempre tienen que ejecutarse en el mismo orden es decir en un condcional ciclo, se pueden repetir las veces que sean nece
+sarias pero siempre en el orden, siempre tienen que estar adentro de una funcion 
+los componentes vuelven a renderizar si cualquier estado del componente cambia al igual que los hijos, si un prop cambia

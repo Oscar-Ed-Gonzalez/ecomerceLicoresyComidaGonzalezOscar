@@ -1,6 +1,6 @@
 import Header from "./Header";
 import ItemListContainer from "./ItemListContainer";
-
+import "./estilos.css"
 const App = () => {
     const nombre = "Oscar Eduardo";
     return(

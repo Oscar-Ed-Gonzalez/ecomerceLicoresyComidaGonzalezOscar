@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 40%;
+}
+
+#menu a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+#menu #carrito{
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contenedorItemCount{
+    background-color: #b5b5b5;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+#contenedorItemCountBotones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    font-size:30px;
+}
+
+#contenedorItemCountBotones button{
+    padding: 15px;
+    font-size:30px;
+}
+#contenedorItemCount button{
+    padding: 10px;
+    font-size:20px;
+}
