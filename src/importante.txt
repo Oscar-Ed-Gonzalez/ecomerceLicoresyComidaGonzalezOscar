@@ -26,3 +26,6 @@ no se generaliza el funcionamiento porque cada uno es distinto useEffect useStat
 lso hooks siempre tienen que ejecutarse en el mismo orden es decir en un condcional ciclo, se pueden repetir las veces que sean nece
 sarias pero siempre en el orden, siempre tienen que estar adentro de una funcion 
 los componentes vuelven a renderizar si cualquier estado del componente cambia al igual que los hijos, si un prop cambia
+
+ciclo de vida antes de que se desmonte, despues de que se renderice,
+para hacer esto se simula usando un hook  asi que se usa use Effect pera manejar los ciclos de vida en un componente 
